@@ -9,7 +9,7 @@ def join_ingredients(src)
   pizza_lover = []
   pizza_pair = 0
   while pizza_pair < src.count do
-    pizza_lover << "I love #{src[pizza_pair][0]} and #{src[pizza_pair][1]} pn my pizza"
+    pizza_lover << "I love #{src[pizza_pair][0]} and #{src[pizza_pair][1]} on my pizza"
     pizza_pair += 1
   end
   return pizza_lover
