@@ -22,7 +22,7 @@ def find_greater_pair(src)
   current_pair = 0
   while current_pair < src.count do
     if (src[current_pair][0] > src[current_pair][1])
-      larger_array << src[current_pair][0]  
+      larger_array << src[current_pair][0]
     else
       larger_array << src[current_pair][1]
     end
