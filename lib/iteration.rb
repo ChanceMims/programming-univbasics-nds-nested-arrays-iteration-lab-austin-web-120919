@@ -21,7 +21,8 @@ def find_greater_pair(src)
   larger_array = []
   pizza_pair = 0
   while pizza_pair < src.count do
-
+    larger_array << src[pizza_pair][1]
+    pizza_pair += 1
   end
 end
 
