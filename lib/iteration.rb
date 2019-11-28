@@ -12,6 +12,7 @@ def join_ingredients(src)
     pizza_lover << "I love #{src[pizza_pair][0]} and #{src[pizza_pair][1]} pn my pizza"
     pizza_pair += 1
   end
+  return pizza_lover
 end
 
 def find_greater_pair(src)
@@ -28,6 +29,7 @@ def find_greater_pair(src)
     end
     current_pair += 1
   end
+  return larger_array
 end
 
 def total_even_pairs(src)
@@ -46,4 +48,5 @@ def total_even_pairs(src)
     end
     current_pair += 1
   end
+  return total
 end
